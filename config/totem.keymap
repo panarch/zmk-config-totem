@@ -125,7 +125,7 @@
 // -----------------------------------------------------------------------------------------
 // |  Q         |  W  |  E         |  R      |  T  |   |  Y       |  U      |  I         |  O  |  P           |
 // | &mt CTRL A |  S  | &mt SHFT D | &lt 3 F |  G  |   |  H       | &lt 3 J | &mt SHFT K |  L  |  ;           |
-// | &mt SHFT Z |  X  |  C         |  V      |  B  |   | &mt B N  |  M      |  ,         |  .  | &mt RSHFT /  |
+// | &mt SHFT Z |  X  |  C         |  V      |  B  |   | &mt B N  | &mt M M      |  ,         |  .  | &mt RSHFT /  |
 //                    | GUI        | LWR     | SPC |   |  ENT     | RSE     | ALT        |
                         bindings = <
          &kp Q        &kp W  &kp E       &kp R    &kp T       &kp Y       &kp U    &kp I       &kp O   &kp P
