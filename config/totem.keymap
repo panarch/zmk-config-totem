@@ -165,10 +165,10 @@
             //                  |    GUI      |             | SPC |   | ENT  | &mo 4     | ALT     |
 
             bindings = <
-       &kp N1     &kp N2    &kp N3       &kp N4       &kp N5       &kp N6    &kp N7         &kp N8       &kp N9     &kp N0
-       &trans     &vim_3k   &vim_11k     &vim_11j     &vim_3j      &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp GRAVE
-&kp A  &kp LSHFT  &CAPTURE  &ctrl_tab_l  &ctrl_tab_r  &trans       &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp TILDE  &kp A
-                            &kp LGUI     &trans       &kp SPACE    &kp RET   &mo 4          &kp RALT
+        &kp N1     &kp N2    &kp N3       &kp N4       &kp N5       &kp N6    &kp N7         &kp N8       &kp N9     &kp N0
+        &trans     &vim_3k   &vim_11k     &vim_11j     &vim_3j      &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp GRAVE
+&tog 0  &kp LSHFT  &CAPTURE  &ctrl_tab_l  &ctrl_tab_r  &trans       &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp TILDE  &kp A
+                             &kp LGUI     &trans       &kp SPACE    &kp RET   &mo 4          &kp RALT
             >;
         };
 
