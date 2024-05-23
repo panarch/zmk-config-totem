@@ -167,7 +167,7 @@
             bindings = <
        &kp N1     &kp N2    &kp N3       &kp N4       &kp N5       &kp N6    &kp N7         &kp N8       &kp N9     &kp N0
        &trans     &vim_3k   &vim_11k     &vim_11j     &vim_3j      &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp GRAVE
-&to 0  &kp LSHFT  &CAPTURE  &ctrl_tab_l  &ctrl_tab_r  &trans       &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp TILDE  &kp A
+&to 0  &kp LSHFT  &CAPTURE  &ctrl_tab_l  &ctrl_tab_r  &trans       &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp TILDE  &kp RET
                             &kp LGUI     &trans       &kp SPACE    &kp RET   &mo 4          &kp RALT
             >;
         };
@@ -182,7 +182,7 @@
             bindings = <
        &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR
        &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH
-&kp A  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp A
+&kp A  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp RET
                          &kp LGUI  &mo 4     &kp SPACE    &kp RET    &trans     &kp RALT
             >;
         };
@@ -197,7 +197,7 @@
             bindings = <
        &kp TAB       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &trans   &trans    &kp BSPC  &trans    &kp BSPC
        &kp CAPSLOCK  &trans        &l_tab        &r_tab        &bt BT_CLR      &trans   &trans    &kp ESC   &trans    &kp SQT
-&kp A  &kp LSHFT     &trans        &l_scr        &r_scr        &trans          &trans   &trans    &kp LPAR  &kp RPAR  &kp RSHFT  &kp A
+&kp A  &kp LSHFT     &trans        &l_scr        &r_scr        &trans          &trans   &trans    &kp LPAR  &kp RPAR  &kp RSHFT  &kp RET
                                    &kp LGUI      &trans        &kp RET         &kp RET  &kp BSPC  &kp RALT
             >;
         };
@@ -212,7 +212,7 @@
             bindings = <
        &trans  &trans  &trans                &kp C_MUTE         &trans       &trans   &trans  &trans    &trans     &trans
        &trans  &trans  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_UP    &trans       &trans   &trans  &trans    &lock_scr  &trans
-&kp A  &trans  &trans  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &trans       &trans   &trans  &trans    &trans     &trans  &kp A
+&kp A  &trans  &trans  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_DOWN  &trans       &trans   &trans  &trans    &trans     &trans  &kp RET
                        &kp LGUI              &trans             &kp SPACE    &kp RET  &trans  &kp RALT
             >;
         };
