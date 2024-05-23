@@ -150,10 +150,10 @@
             //                    | GUI        | LWR     | SPC |   |  ENT     | RSE     | ALT        |
 
             bindings = <
-        &kp Q        &kp W           &kp E        &kp R    &kp T        &kp Y    &kp U    &kp I        &kp O       &kp P
-        &mt LCTRL A  &mt LEFT_GUI S  &mt LSHFT D  &lt 3 F  &kp G        &kp H    &lt 3 J  &mt RSHFT K  &mt RGUI L  &mt RCTRL SEMI
-&tog 1  &mt LSHFT Z  &kp X           &kp C        &kp V    &kp B        &mt B N  &kp M    &kp COMMA    &kp DOT     &mt RSHFT FSLH  &kp RET
-                                     &kp LGUI     &mo 1    &kp SPACE    &kp RET  &mo 2    &kp RALT
+       &kp Q        &kp W           &kp E        &kp R    &kp T        &kp Y    &kp U    &kp I        &kp O       &kp P
+       &mt LCTRL A  &mt LEFT_GUI S  &mt LSHFT D  &lt 3 F  &kp G        &kp H    &lt 3 J  &mt RSHFT K  &mt RGUI L  &mt RCTRL SEMI
+&to 1  &mt LSHFT Z  &kp X           &kp C        &kp V    &kp B        &mt B N  &kp M    &kp COMMA    &kp DOT     &mt RSHFT FSLH  &kp RET
+                                    &kp LGUI     &mo 1    &kp SPACE    &kp RET  &mo 2    &kp RALT
             >;
         };
 
@@ -165,10 +165,10 @@
             //                  |    GUI      |             | SPC |   | ENT  | &mo 4     | ALT     |
 
             bindings = <
-        &kp N1     &kp N2    &kp N3       &kp N4       &kp N5       &kp N6    &kp N7         &kp N8       &kp N9     &kp N0
-        &trans     &vim_3k   &vim_11k     &vim_11j     &vim_3j      &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp GRAVE
-&tog 0  &kp LSHFT  &CAPTURE  &ctrl_tab_l  &ctrl_tab_r  &trans       &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp TILDE  &kp A
-                             &kp LGUI     &trans       &kp SPACE    &kp RET   &mo 4          &kp RALT
+       &kp N1     &kp N2    &kp N3       &kp N4       &kp N5       &kp N6    &kp N7         &kp N8       &kp N9     &kp N0
+       &trans     &vim_3k   &vim_11k     &vim_11j     &vim_3j      &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp GRAVE
+&to 0  &kp LSHFT  &CAPTURE  &ctrl_tab_l  &ctrl_tab_r  &trans       &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp TILDE  &kp A
+                            &kp LGUI     &trans       &kp SPACE    &kp RET   &mo 4          &kp RALT
             >;
         };
 
